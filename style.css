@@ -521,7 +521,7 @@ left:4.375rem;
     }
 
     html{
-        font-size: 80%;
+        font-size: 110%;
       }
     .container{
         /* margin: 0 auto; */
@@ -529,7 +529,7 @@ left:4.375rem;
     }
 
   html h2{
-    font-size: 120%;
+    font-size: 150%;
   }
  nav .list .nav-item a{
     margin-top: 6rem;
