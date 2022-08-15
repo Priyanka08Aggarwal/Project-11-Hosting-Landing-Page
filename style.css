@@ -520,9 +520,9 @@ left:4.375rem;
         width: 25rem;
     }
 
-    html{
+    /* html{
         font-size: 150%;
-      }
+      } */
     .container{
         /* margin: 0 auto; */
         max-width: 50rem;
