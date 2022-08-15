@@ -397,9 +397,11 @@ left:4.375rem;
 }
 .footer{
     height: 30vh;
+    width: 275%;
     margin:0 -12.5rem 0 -12.5rem;
     background: linear-gradient(to right, #11c0f8, #0566ea);
     color: #fff;
+   
     /* clip-path: polygon(41% 0, 100% 10%, 31% 100%, 0% 100%); */
     /* text-align: center; */
 }
@@ -481,6 +483,9 @@ left:4.375rem;
 {
   /* html{
     font-size: 90%;
+  }
+  .footer{
+    width: 200%;
   } */
 }
 
@@ -504,9 +509,9 @@ left:4.375rem;
             left: 10rem;
             
           }
-          .footer{
+          /* .footer{
             width: 80rem;
-          }
+          } */
 }
 
 @media only screen and (max-width: 1100px)
@@ -565,6 +570,13 @@ left:4.375rem;
     position: relative;
     left: 10rem;
 } */
+.footer-btn{
+    position: absolute;
+    right:-15.5rem;
+    /* top:10px; */
+    /* bottom: 10px; */
+
+}
 
 }
 @media only screen and (max-width: 474px){
@@ -633,11 +645,30 @@ left:4.375rem;
         width: 25rem;
         height: auto;
     }
+
+    .footer-btn{
+        /* position: absolute;
+        right:-15.5rem; */
+        margin-top: 100px;
+        margin-right: 33rem;
+    
+    }
+.footer-navigation .logo-container{
+   display: none;
+    
+}
+    .footer-navbar{
+        display: flex;
+        flex-direction: column;
+       justify-content: center;
+       margin-left: 25rem;
+    }
 }
 @media only screen and (max-width: 450px){
-    .customer-card {
+    .customer-cards {
     width: 25rem;
     margin-left: 10rem;
+
     }
 }
 @media only screen and (max-width: 600px)
