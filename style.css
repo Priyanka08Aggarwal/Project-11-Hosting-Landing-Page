@@ -479,13 +479,19 @@ left:4.375rem;
 
 @media only screen and (max-width: 1500px)
 {
-  html{
+  /* html{
     font-size: 90%;
-  }
+  } */
 }
 
 @media only screen and (max-width: 1200px)
 {
+    body{
+        margin-right: -15rem;
+    }
+    .card-heading{
+        align-items: center;
+    }
     .card-heading h2{
         /* margin-top: -1.5625rem; */
          font-size: 1.5rem;
@@ -553,12 +559,13 @@ left:4.375rem;
 .customer-card{
     width: 100%;
     position: relative;
-    left: 10rem;
+    /* left: 10rem; */
 }
-.customer-head  p {
+/* .customer-head  p {
     position: relative;
     left: 10rem;
-}
+} */
+
 }
 @media only screen and (max-width: 474px){
     .pricing{
@@ -576,19 +583,21 @@ left:4.375rem;
 @media only screen and (max-width: 700px)
 {
     header .nav-bar{
-    margin:1.875rem 10.25rem 1.875rem -5rem;
+    margin:1.875rem 0rem 1.875rem 10rem;
     }
 
     nav .list .nav-item button{
         margin-right: 10rem;
      }
 
-     .image1-right , .image3-right{
+     .image1-right , .image3-right {
         width: 15rem;
         margin-right: 5rem;
     }
     .image2-right{
-        margin-right: -8rem;
+        margin-right: 0rem;
+        width: 15rem;
+        text-align: center;
     }
     .image2-left{
         margin-left: 7rem;
@@ -607,7 +616,10 @@ left:4.375rem;
         margin-left: 50rem;
 
     }
-
+.customer-head{
+    margin-left: 20rem;
+   /* width: 100%; */
+}
     .customer-cards{
         display: flex;
         flex-direction: column;
@@ -615,8 +627,11 @@ left:4.375rem;
     .customer-card{
         width: 100%;
         position: relative;
-        left: 10rem
-        ;
+        left: 11rem;
+    }
+    .customer-head p , h1{
+        width: 25rem;
+        height: auto;
     }
 }
 @media only screen and (max-width: 450px){
@@ -641,8 +656,15 @@ left:4.375rem;
     margin-right: -20rem;
     text-align: center;
 }
-.image1-left , .image3-left{
+.image1-left , .image3-left {
     text-align: center;
 }
+.card-heading{
+    margin-left: 15rem;
+}
    
+.card-heading p{
+    width: 100%;
+    text-align: center;
+}
 }
