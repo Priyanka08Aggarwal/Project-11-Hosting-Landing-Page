@@ -519,10 +519,10 @@ left:4.375rem;
     .image1-right , .image3-right{
         width: 25rem;
     }
-
+/* 
     html{
         font-size: 100%;
-      }
+      } */
     .container{
         /* margin: 0 auto; */
         max-width: 50rem;
@@ -573,8 +573,7 @@ left:4.375rem;
 .footer-btn{
     position: absolute;
     right:-15.5rem;
-    /* top:10px; */
-    /* bottom: 10px; */
+   
 
 }
 
@@ -649,10 +648,10 @@ left:4.375rem;
     .footer-btn{
         /* position: absolute;
         right:-15.5rem; */
-        margin-top: 100px;
-        margin-right: 33rem;
+        /* margin-top: 100px; */
+        margin-right: -20rem;
     
-    }
+    } 
 .footer-navigation .logo-container{
    display: none;
     
