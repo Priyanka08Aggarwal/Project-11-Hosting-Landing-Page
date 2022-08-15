@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap');
 
+
 *{
     padding: 0;
     margin: 0;
@@ -13,22 +14,23 @@
 body{
     font-family: "Open Sans", sans-serif;
     height: 100vh;
-    margin-left: 200px;
-    margin-right: 200px;
+    margin-left: 12.5rem;
+    margin-right: 12.5rem;
     background-color: #fdfeff;
 }
 
 /* ----------navbar section---------- */
 header .nav-bar{
-    margin: 30px 100px 100px 0px;
+    /* margin: 30px 100px 100px 0px; */
+    margin: 1.875rem 6.25rem 1.875rem 0rem;
     height: 10vh;
     display: flex;
     justify-content:space-between;
 }
 .nav-bar img {
-     height: 40px;
-     margin-top: 15px;
-     margin-left: 0px;
+     height: 2.5rem;
+     margin-top: 1rem;
+     margin-left: 0rem;
 }
 .nav-bar .list {
     display: flex;
@@ -37,6 +39,10 @@ header .nav-bar{
     flex-direction: row;
     
 }
+
+/* rem */
+
+
 .list .nav-item, a{
     text-decoration: none;
     list-style-type: none;
@@ -45,35 +51,35 @@ header .nav-bar{
     align-items: center;
     flex-direction: row;
     color: #1f1f1f86;
-    margin-top: 10px;
-    margin-right: 20px;
+    margin-top: 1rem;
+    margin-right: 1.25rem;
     font-family: "Montserrat";
-    font-size: 20px;
+    font-size: 1.25rem;
     cursor: pointer;
 }
 
 .btn {
     cursor: pointer;
-    padding: 10px 30px;
-    border: 2px;
+    padding: 1rem 2rem;
+    border: 0.125rem;
     outline: none;
     position: relative;
     border-radius: 1rem;
     background:#fff;
     cursor: pointer;
-    font-size: 20px;
+    font-size: 1.25rem;
     color: #11c0f8;
-    margin-right: -100px;
+    margin-right: -6.25rem;
   
 }
 .btn::after {
     content: "";
     position: absolute;
-    top: 1px;
-    right: 1px;
-    bottom: 1px;
-    left: 1px;
-    margin: -3px;
+    top: 0.0625rem;
+    right: 0.0625rem;
+    bottom: 0.0625rem;
+    left: 0.0625rem;
+    margin: -0.1875rem;
     z-index: -1;
     border-radius: inherit;
     background: linear-gradient(to right, #11c0f8, #0566ea);
@@ -89,7 +95,7 @@ header .nav-bar{
 }
 /* -----image1----- */
 .section1 .image1{
-    margin: 100px 0 200px 0;
+    margin: 6.25rem 0 12.5rem 0;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -98,12 +104,12 @@ header .nav-bar{
 }
 
 .section1 .image1 .image1-left h1{
-    font-size: 50px;
+    font-size:3.125rem;
 }
 .section1 .image1 .image1-left p{
-    margin: 25px 0 25px 0;
-    font-size: 15px;
-    letter-spacing: 1px;
+    margin: 1.56rem 0 1.56rem 0;
+    font-size:0.9375rem;
+    letter-spacing: .0625rem;
     color: #1f1f1f86;
 }
 .section1 .image1 .image1-left button{
@@ -111,18 +117,18 @@ header .nav-bar{
     border: none;
     background: linear-gradient(to right, #11c0f8, #0566ea);
     color: #fff;
-    padding: 15px 35px;
+    padding: 0.9375rem 2.1875rem;
     border-radius: .5rem;
     cursor: pointer;
 }
 .section1 .image1 .image1-right img{
-    width: 500px;
-    margin-left: 100px;
+    width: 31.25rem;
+    margin-left: 6.25rem;
 }
 
 /* -----image2----- */
 .section1 .image2{
-    margin: 50px 0 200px 0;
+    margin: 3.125rem 0 12.5rem 0;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -130,12 +136,12 @@ header .nav-bar{
 }
 
 .section1 .image2 .image2-right h1{
-    font-size: 40px;
+    font-size: 2.5rem;
 }
 .section1 .image2 .image2-right p{
-    margin: 25px 0 25px 0;
-    font-size: 15px;
-    letter-spacing: 1px;
+    margin: 1.56rem 0 1.56rem 0;
+    font-size: 0.9375rem;
+    letter-spacing: 0.0625rem;
     color: #1f1f1f86;
 }
 .section1 .image2 .image2-right button{
@@ -143,33 +149,34 @@ header .nav-bar{
     border: none;
     background: linear-gradient(to right, #11c0f8, #0566ea);
     color: #fff;
-    padding: 15px 50px;
+    padding: 0.937rem 3.125rem;
     border-radius: .5rem;
     cursor: pointer;
 }
 .section1 .image2 .image2-left img{
-    width: 500px;
+    width: 31.25rem;
     margin-right: 100px;
 } 
 /* -----image3----- */
 .section1 .image3{
-    margin: 100px 0 200px 0;
+    margin: 6.25rem 0 12.5rem 0;
     display: flex;
     justify-content: space-between;
     align-items: center;
     height: 30vh;
 }
+
 h2{
-    font-size: 35px;
+    font-size: 2.1875rem;
 }
 
 .section1 .image3 .image3-left h1{
-    font-size: 50px;
+    font-size: 3.125rem;
 }
 .section1 .image3 .image3-left p{
-    margin: 25px 0 25px 0;
-    font-size: 15px;
-    letter-spacing: 1px;
+    margin: 1.5625rem 0 1.5625rem 0;
+    font-size: 0.9375rem;
+    letter-spacing: 0.0525rem;
     color: #1f1f1f86;
 }
 .section1 .image3 .image3-left button{
@@ -177,17 +184,17 @@ h2{
     border: none;
     background: linear-gradient(to right, #11c0f8, #0566ea);
     color: #fff;
-    padding: 15px 35px;
+    padding: 0.9375rem 2.1875rem;
     border-radius: .5rem;
     cursor: pointer;
 }
 .section1 .image3 .image3-right img{
-    width: 600px;
+    width: 37.5rem;
     /* margin-left: 100px; */
 }
 /* <!-- -----services section----- --> */
 .card-heading{
-    margin: 0 0px 100px 0px;
+    margin: 0 0rem 6.25rem 0rem;
     /* max-width:1200px; */
     
     display: flex;
@@ -197,21 +204,21 @@ h2{
   
 }
 .card-heading p{
-    font-size: 15px;
-    letter-spacing: 1px;
+    font-size: .9375rem;
+    letter-spacing: 0.0625rem;
     color: #1f1f1f86;
-    line-height: 30px;
+    line-height: 1.875rem;
    
 }
 .card-heading h2{
-   margin-top: -25px;
-    font-size: 40px;
+   margin-top: -1.5625rem;
+    font-size: 2.5rem;
    
 }
 
 .cards{
     /* background-color: #fff; */
-   margin: 0 0 100px 0px;
+   margin: 0 0 6.25rem 0rem;
     display: flex;
     flex-direction: row;
     justify-items: space-between ;
@@ -225,32 +232,32 @@ h2{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    margin: 0 0 0 100px;
+    margin: 0 0 0 6.25rem;
 }
 .cards .Card > *{
- margin-bottom: 20px;
+ margin-bottom: 1.25rem;
 
 }
 .cards  > *{
-    margin-left: 50px;
+    margin-left: 3.125rem;
    
    }
 .cards .Card p{
-    font-size: 13px;
-    letter-spacing: 1px;
+    font-size: 0.8125rem;
+    letter-spacing: 0.0625rem;
     color: #1f1f1f86;
-    line-height: 23px;
+    line-height: 1.4375rem;
 }
 /* .cards .Card:nth-child(n)::after{
    margin-right: 100px;
 } */
 
 .cards .Card img{
-    width: 50px;
+    width: 3.125rem;
 }
 .pricing{
     
-    height: 600px;
+    height: 37.5rem;
     margin: 0 -200px 0 -200px;
     /* position: relative; */
     /* bottom: 150px; */
@@ -258,18 +265,18 @@ h2{
 }
 .pricing .head h2{
     position: relative;
-    top: 25px;
-    bottom: 25px;
+    top: 1.5625rem;
+    bottom: 1.5625rem;
     text-align: center;
-    font-size: 40px;
+    font-size: 2.5rem;
     font-weight: 400;
     color:#fff;
-    letter-spacing: 1px;
+    letter-spacing: 0.0625rem;
     
 }
 .price-cards{
     position: relative;
-    margin: 50px 200px 0px 250px;
+    margin: 3.125rem 12.5rem 0rem 15.625rem;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -279,10 +286,10 @@ h2{
 .price-cards .active-card .head{
     /* z-index: 4; */
     color: #fff;
-    margin:-1px -1px 0 -1px;
+    margin:-0.0625rem -0.0625rem 0 -0.0625rem;
     border-radius: .5rem;
     text-align: center;
-    padding: 10px 0 0 0;
+    padding: .625rem 0 0 0;
     background-color:#2c2c2c; 
 }
 .price-cards .active-card .head p{
@@ -292,25 +299,25 @@ h2{
 .price-card{
     border-radius:.5rem;
     background-color: #fff;
-    line-height: 40px;
+    line-height: 2.5rem;
 
 }
 .price-card > *{
-margin:10px 30px 10px 30px ;
+margin:.625rem 1.875rem .625rem 1.875rem ;
 }
 .price-card .head h4{
-    font-size: 20px;
+    font-size: 1.25rem;
 }
 .price-card .head p{
-    font-size: 12px;
+    font-size: .75rem;
     color:  #1f1f1f86;
-    margin-top: -10px;
-    margin-bottom: 20px;
+    margin-top: -0.625rem;
+    margin-bottom: 1.25rem;
 }
 .price-card .card-body{
-font-size: 14px;
-letter-spacing: .5px;
-padding: 0 20px 0 20px;
+font-size: .875rem;
+letter-spacing: 0.03125rem;
+padding: 0 1.25rem 0 1.25rem;
 }
 
 .price-card .card-footer{
@@ -318,7 +325,7 @@ padding: 0 20px 0 20px;
     }
 .price-card .card-footer h4 {
         /* color: #1f1f1f86; */
-        font-size:20px ;
+        font-size:1.25rem ;
 }
 .price-card .card-footer h4 span{
     color: #1f1f1f86;
@@ -326,33 +333,33 @@ padding: 0 20px 0 20px;
 
 .price-card .card-footer p{
     color: #1f1f1f86;
-    font-size: 13px;
+    font-size: .8125rem;
 }
 .btn-pricing{
 background: linear-gradient(to right bottom, #11c0f8, #0566ea);
 color: #FFFFFF;
-padding: 10px 30px;
+padding: .625rem 1.875rem;
 border: none;
-border-radius: 8px;
-font-size: 18px;
-margin-top: 20px;
-box-shadow: 0px 0px 20px 2px rgba(5, 102, 234,.2);
+border-radius: 0.5rem;
+font-size: 1.125rem;
+margin-top: 1.25rem;
+box-shadow: 0px 0px 1.25rem 0.125rem rgba(5, 102, 234,.2);
 cursor: pointer;
 }
 /* -----Customer head----- */
 .customer-head{
     text-align: center;
-    margin: 100px 0 100px 0;
+    margin: 6.25rem 0 6.25rem 0;
 }
 .customer-head h1{
-    font-size: 35px;
+    font-size: 2.1875rem;
     position: relative;
-    bottom: 25px;
+    bottom: 1.5625rem;
 }
 .customer-head p{
     color: #1f1f1f86;
-    font-size: 13px;
-    line-height: 20px;
+    font-size: 0.8125rem;
+    line-height: 1.25rem;
 }
 .customer-cards{
     display: flex;
@@ -363,11 +370,11 @@ cursor: pointer;
     
 }
 .customer-cards .customer-card{
-    padding: 20px 15px 0 15px; 
+    padding: 1.25rem 0.937rem 0 0.937rem; 
     border: 1px solid rgba(0, 0, 0, 0.1);
     border-radius: .5rem;
     color: #253753;
-    margin:0 10px 10px 10px;
+    margin:0 .625rem 0.625rem 0.625rem;
     /* margin-bottom: 20px; */
     /* background-color: ; */
 }
@@ -375,22 +382,22 @@ cursor: pointer;
 
 .customer-cards .customer-card p{
     position: relative;
-    font-size: 15px;
-    margin-bottom: 30px;
+    font-size: 0.937rem;
+    margin-bottom: 1.875rem;
 }
 .customer-author{
 position: relative;
-top: -55px;
-left:70px;
+top: -3.4375rem;
+left:4.375rem;
 
 }
 .customer-author span{
-    font-size: 13px;
+    font-size: 0.8125rem;
     
 }
 .footer{
     height: 30vh;
-    margin:0 -200px 0 -200px;
+    margin:0 -12.5rem 0 -12.5rem;
     background: linear-gradient(to right, #11c0f8, #0566ea);
     color: #fff;
     /* clip-path: polygon(41% 0, 100% 10%, 31% 100%, 0% 100%); */
@@ -398,21 +405,21 @@ left:70px;
 }
 .footer h1{
     position: relative;
-    left: 200px;
-    top: 50px;
+    left: 12.5rem;
+    top: 3.125rem;
 }
 .footer p{
     position: relative;
-   top: 75px;
-    left: 200px;
+   top: 4.6875rem;
+    left: 12.5rem;
 }
 
 .footer-btn{
     position: absolute;
-    right: 200px;
+    right:12.5rem;
     /* top:10px; */
     /* bottom: 10px; */
-    padding: 15px 30px 15px 30px; 
+    padding: 0.9375rem 1.875rem 0.9375rem 1.875rem; 
     border-radius: .5rem;
     border: 1px solid #fff;
     background-color: transparent;
@@ -420,8 +427,8 @@ left:70px;
 }
 .footer-navigation{
     position: relative;
-    top: 50px;
-    bottom: 50px;
+    top: 3.125rem;
+    bottom: 3.125rem;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -436,36 +443,206 @@ left:70px;
     list-style-type: none;
 }
  .footer-navbar div h5 {
-    padding-bottom: 20px;
+    padding-bottom: 1.25rem;
     font-size: 1.4rem;
     color: #14263f;
 }
  .footer-navbar div ul li {
     list-style-type: none;
-    padding-bottom: 20px;
+    padding-bottom: 1.25rem;
     color: #6e6e6e;
-    font-size: 14px;
+    font-size: 0.875rem;
 }
  .footer-navbar div:last-child ul {
     display: flex;
-    gap: 20px;
+    gap: 1.25rem;
     justify-content: center;
 }
  .footer-navbar div:last-child h5 {
     text-align: center;
 }
 .footer-navbar div:last-child ul li img {
-    width: 36px;
+    width: 2.25rem;
 }
  .logo-container {
     flex: 1.2;
 }
  .logo-container img {
-    width: 100px;
+    width: 6.25rem;
 }
  .logo-container p {
-    padding-top: 20px;
+    padding-top: 1.25rem;
     color: #777777;
 }
 
+/* media queries */
 
+@media only screen and (max-width: 1500px)
+{
+  html{
+    font-size: 90%;
+  }
+}
+
+@media only screen and (max-width: 1200px)
+{
+    .card-heading h2{
+        /* margin-top: -1.5625rem; */
+         font-size: 1.5rem;
+         position: relative;
+            left: 2.5rem;
+        }
+
+        .card-heading p{
+            position: relative;
+            left: 10rem;
+            
+          }
+          .footer{
+            width: 80rem;
+          }
+}
+
+@media only screen and (max-width: 1100px)
+{
+    .image1-right , .image3-right{
+        width: 25rem;
+    }
+
+    html{
+        font-size: 80%;
+      }
+    .container{
+        /* margin: 0 auto; */
+        max-width: 50rem;
+    }
+
+  html h2{
+    font-size: 120%;
+  }
+ nav .list .nav-item a{
+    margin-top: 6rem;
+    margin-right: 1rem;
+ }
+
+ nav .list .nav-item button{
+    margin-top: -2rem;
+    padding: .5rem 1rem;
+    font-size: 1rem;
+ }
+ 
+ .nav-bar img{
+    margin-top: 3rem;
+ }
+ header{
+    margin-bottom: 5rem;
+ }
+}
+@media only screen and (max-width: 900px){
+    .pricing{
+        /* margin-bottom: 65rem; */
+        height: 100.5rem;
+        width: 100rem;
+    }
+.price-cards{
+    flex-direction: column;
+}
+.price-card{
+    margin-top: 2rem;
+}
+.customer-card{
+    width: 100%;
+    position: relative;
+    left: 10rem;
+}
+.customer-head  p {
+    position: relative;
+    left: 10rem;
+}
+}
+@media only screen and (max-width: 474px){
+    .pricing{
+      
+        height: 100rem;
+        width: 100rem;
+    }
+/* .price-cards{
+    flex-direction: column;
+} */
+/* .price-card{
+    margin-top: 2rem;
+} */
+}
+@media only screen and (max-width: 700px)
+{
+    header .nav-bar{
+    margin:1.875rem 10.25rem 1.875rem -5rem;
+    }
+
+    nav .list .nav-item button{
+        margin-right: 10rem;
+     }
+
+     .image1-right , .image3-right{
+        width: 15rem;
+        margin-right: 5rem;
+    }
+    .image2-right{
+        margin-right: -8rem;
+    }
+    .image2-left{
+        margin-left: 7rem;
+    }
+
+    .cards{
+        flex-direction: column;
+        /* justify-content: space-evenly; */
+        align-content: center;
+        position: relative;
+        /* left: 10rem; */
+        
+    }
+    .cards .Card{
+        width: 100%;
+        margin-left: 50rem;
+
+    }
+
+    .customer-cards{
+        display: flex;
+        flex-direction: column;
+    }
+    .customer-card{
+        width: 100%;
+        position: relative;
+        left: 10rem
+        ;
+    }
+}
+@media only screen and (max-width: 450px){
+    .customer-card {
+    width: 25rem;
+    margin-left: 10rem;
+    }
+}
+@media only screen and (max-width: 600px)
+{
+   .image1 , .image2 , .image3{
+   margin-left: -30rem;
+   }
+   .image1-right , .image3-right{
+    width: .5rem;
+    margin-right: -5rem;
+}
+.image2-left{
+    margin-left: 10rem;
+}
+.image2-right{
+    margin-right: -20rem;
+    text-align: center;
+}
+.image1-left , .image3-left{
+    text-align: center;
+}
+   
+}
